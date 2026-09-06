@@ -1,15 +1,15 @@
-# Z Route: Weekly VS & Expedition Frenzy Guide
+# Z Route: Weekly VS Guide
 
-A practical alliance guide for weekly Alliance Competition / VS and server-vs-server Expedition Frenzy.
+A practical, beginner-friendly alliance guide for weekly Alliance Competition / VS.
 
 > **Version:** activity map transcribed from the Z Route client v1.30.07. Remote server configuration can change; verify the live event panel.
 
 ## Core rules
 
 1. Hold completed work and rewards for the matching VS day when safe.
-2. Check VS, Mission Readiness, and Expedition Frenzy before claiming anything.
+2. Check VS and Mission Readiness before claiming anything.
 3. Score as an alliance: follow officer targets and stop spending when the target is secure.
-4. Never sacrifice war readiness for marginal points.
+4. Never spend scarce resources just to chase a leaderboard rank.
 
 ## Six-day VS rotation
 
@@ -33,6 +33,30 @@ Mission Readiness is a separate mission/milestone system. Make one action satisf
 - Hero day: open recruitment or use fragments/EXP/books when readiness requests the same action.
 - Training/war day: align training, healing, rescue, and combat objectives without creating unnecessary casualties.
 
+## Simple weekly routine
+
+Use this routine every day. “Reset” means the daily VS reset shown by your event timer.
+
+- **As soon as a day starts:** open VS and Mission Readiness. Write down the 2–3 matching actions for that day.
+- **Gathering:** send all available marches soon after reset. Recall them **after the next reset**, claim the gathering result, and immediately send them again. Before the following reset, recall them so the next day’s points can be claimed after reset. Do not recall early unless you need the troops.
+- **Queues:** start long construction, research, or training before reset when possible. Finish or claim them after reset only if the new day scores that action.
+- **Missions:** leave completed Radar, rescue, truck, and Mission Readiness tasks unclaimed until the matching day.
+- **Before sleeping:** start marches and queues that will be ready for the next scoring window.
+- **Last hour:** do not panic-spend. Check the target, available points, and whether your action is actually listed.
+
+## Mission Readiness schedule
+
+The client exposes Mission Readiness as a rotating stage system with stage swapping and points chests. It does not provide a single permanent weekday calendar in the published data; the live event can rotate or refresh the tasks. Therefore use this reliable schedule by **task type**, not by an assumed Monday/Tuesday label:
+
+| Mission Readiness task type | Prepare before the task appears | Complete/claim during the task | VS double-dip
+|---|---|---|---|
+| Gathering | Send marches after the prior reset | Recall and claim after the readiness task and VS gathering day are active | Yes, if both panels list gathering
+| Radar / missions | Save completed missions and stamina | Claim/finish after both objectives are active | Yes, on Radar day
+| Construction | Start an upgrade; save speedups | Finish/use speedups when both objectives match | Yes, on construction day
+| Research | Start research; save research items | Finish/use items when both objectives match | Yes, on research day
+| Heroes | Save tickets, EXP, fragments, books | Open/use only when the matching task is active | Yes, on Hero day
+| Training/healing | Keep queues and reserves ready | Finish/use after reset; heal only real losses | Yes, on training/recovery day
+
 ### Timing procedure
 
 1. Before reset, inspect all three event panels.
@@ -48,15 +72,14 @@ Do not assume every reward claim scores twice: the client distinguishes radar, s
 
 Radar completions; stamina; construction/research/training/healing speedups; building/research rewards; recruit tickets; hero EXP/fragments/books; drone data/parts; gathering marches and returns; rescue/truck rewards; training queues; and unclaimed Mission Readiness objectives.
 
-Keep a reserve for Expedition Frenzy. Do not burn troops, healing, stamina, or premium currency solely for a VS ranking.
+Do not burn troops, healing, stamina, or premium currency solely for a VS ranking.
 
 ## Alliance procedure
 
 ### Before the cycle
 
 - Publish the calendar, daily target, and stop-spend rule.
-- Coordinate push members, war leads, trucks, rescues, rallies, and combat windows.
-- Keep enough reserves for Expedition Frenzy.
+- Coordinate push members, trucks, rescues, and rallies.
 
 ### During each day
 
@@ -64,10 +87,6 @@ Keep a reserve for Expedition Frenzy. Do not burn troops, healing, stamina, or p
 - Prioritize cheap, efficient actions before scarce items.
 - Report caps, delayed credit, changed descriptions, or missing points.
 - Fight only under officer orders; avoid unauthorized attacks and hospital overloads.
-
-## Expedition Frenzy conduct
-
-Treat server-war objectives as higher priority than ordinary VS points. Preserve marches, troops, healing, teleport items, stamina, and speedups for the announced war window. Coordinate rallies and defense, follow target lists, and do not create casualties to manufacture points.
 
 ## Source map
 

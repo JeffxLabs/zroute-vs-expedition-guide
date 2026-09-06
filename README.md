@@ -16,11 +16,11 @@ A practical, beginner-friendly alliance guide for weekly Alliance Competition / 
 | Day | Scoring activities | Hold beforehand |
 |---|---|---|
 | 1: Radar/gathering | Radar tasks, stamina, food/metal/energy gathering, hero EXP, drone data/parts | Radar completions, stamina, gathering returns, drone items, hero EXP |
-| 2: Construction/rescue | Building speedups and power, Special Ops missions, truck activity | Building completions, construction speedups/items, Special Ops/truck claims |
+| 2: Construction / Special Ops | Building speedups and power, Special Ops missions, truck activity | Building completions, construction speedups/items, Special Ops/truck claims |
 | 3: Research | Research speedups and power, research-info items, radar | Research completions, speedups, research info, radar claims |
 | 4: Heroes | Recruitment, hero EXP/fragments, skill books | Recruit tickets, EXP, fragments, skill books |
 | 5: Mixed growth/training | Radar, construction/research progress, troop training and speedups | Queues, completions, training speedups, radar claims |
-| 6: War/recovery | Kills, battle activity, rescue, construction/research/training/healing speedups | Healing queues/speedups, Special Ops/truck claims, combat reserves |
+| 6: War/recovery | Kills, battle activity, Special Ops, construction/research/training/healing speedups | Healing queues/speedups, Special Ops/truck claims, combat reserves |
 
 The client contains two six-day configurations with this activity pattern. Live labels/order and caps may differ.
 
@@ -31,7 +31,7 @@ Mission Readiness is a separate mission/milestone system. Make one action satisf
 - Radar day: complete stored Radar missions when both objectives are active.
 - Construction/research days: finish queues or use speedups only when the matching readiness objective is active.
 - Hero day: open recruitment or use fragments/EXP/books when readiness requests the same action.
-- Training/war day: align training, healing, rescue, and combat objectives without creating unnecessary casualties.
+- Training/war day: align training, healing, Special Ops, and combat objectives without creating unnecessary casualties.
 
 ## Simple weekly routine
 
@@ -79,7 +79,7 @@ Do not burn troops, healing, stamina, or premium currency solely for a VS rankin
 ### Before the cycle
 
 - Publish the calendar, daily target, and stop-spend rule.
-- Coordinate push members, trucks, rescues, and rallies.
+- Coordinate push members, trucks, Special Ops, and rallies.
 
 ### During each day
 

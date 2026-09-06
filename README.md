@@ -16,11 +16,11 @@ A practical, beginner-friendly alliance guide for weekly Alliance Competition / 
 | Day | Scoring activities | Hold beforehand |
 |---|---|---|
 | 1: Radar/gathering | Radar tasks, stamina, food/metal/energy gathering, hero EXP, drone data/parts | Radar completions, stamina, gathering returns, drone items, hero EXP |
-| 2: Construction/rescue | Building speedups and power, rescue missions, truck activity | Building completions, construction speedups/items, rescue/truck claims |
+| 2: Construction/rescue | Building speedups and power, Special Ops missions, truck activity | Building completions, construction speedups/items, Special Ops/truck claims |
 | 3: Research | Research speedups and power, research-info items, radar | Research completions, speedups, research info, radar claims |
 | 4: Heroes | Recruitment, hero EXP/fragments, skill books | Recruit tickets, EXP, fragments, skill books |
 | 5: Mixed growth/training | Radar, construction/research progress, troop training and speedups | Queues, completions, training speedups, radar claims |
-| 6: War/recovery | Kills, battle activity, rescue, construction/research/training/healing speedups | Healing queues/speedups, rescue/truck claims, combat reserves |
+| 6: War/recovery | Kills, battle activity, rescue, construction/research/training/healing speedups | Healing queues/speedups, Special Ops/truck claims, combat reserves |
 
 The client contains two six-day configurations with this activity pattern. Live labels/order and caps may differ.
 
@@ -40,7 +40,7 @@ Use this routine every day. “Reset” means the daily VS reset shown by your e
 - **As soon as a day starts:** open VS and Mission Readiness. Write down the 2–3 matching actions for that day.
 - **Gathering:** send all available marches soon after reset. Recall them **after the next reset**, claim the gathering result, and immediately send them again. Before the following reset, recall them so the next day’s points can be claimed after reset. Do not recall early unless you need the troops.
 - **Queues:** start long construction, research, or training before reset when possible. Finish or claim them after reset only if the new day scores that action.
-- **Missions:** leave completed Radar, rescue, truck, and Mission Readiness tasks unclaimed until the matching day.
+- **Missions:** leave completed Radar, Special Ops, truck, and Mission Readiness tasks unclaimed until the matching day.
 - **Before sleeping:** start marches and queues that will be ready for the next scoring window.
 - **Last hour:** do not panic-spend. Check the target, available points, and whether your action is actually listed.
 
@@ -70,7 +70,7 @@ Do not assume every reward claim scores twice: the client distinguishes radar, s
 
 ## Stockpile checklist
 
-Radar completions; stamina; construction/research/training/healing speedups; building/research rewards; recruit tickets; hero EXP/fragments/books; drone data/parts; gathering marches and returns; rescue/truck rewards; training queues; and unclaimed Mission Readiness objectives.
+Radar completions; stamina; construction/research/training/healing speedups; building/research rewards; recruit tickets; hero EXP/fragments/books; drone data/parts; gathering marches and returns; Special Ops/truck rewards; training queues; and unclaimed Mission Readiness objectives.
 
 Do not burn troops, healing, stamina, or premium currency solely for a VS ranking.
 

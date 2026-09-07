@@ -19,6 +19,7 @@ h1 { margin: 8px 0 2px; font-size: clamp(36px, 8vw, 58px); letter-spacing: -.055
 .reset { display: inline-flex; align-items: center; gap: 10px; padding: 9px 13px; border: 1px solid rgba(89,215,237,.25); border-radius: 12px; background: rgba(89,215,237,.08); color: var(--muted); font-size: 11px; line-height: 1.15; }
 .reset strong { color: var(--text); font-size: 13px; }
 .reset-icon { color: var(--cyan); font-size: 24px; line-height: 1; }
+.notice { margin: 0 0 14px; padding: 9px 11px; border-left: 2px solid var(--cyan); background: rgba(89,215,237,.06); color: var(--muted); font-size: 11px; }
 .legend { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; color: var(--muted); font-size: 12px; }
 .legend-rule { height: 1px; flex: 1; background: var(--line); }
 .days { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }

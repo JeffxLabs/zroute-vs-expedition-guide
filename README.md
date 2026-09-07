@@ -35,11 +35,11 @@ Mission Readiness is a separate mission/milestone system. Make one action satisf
 
 ## Simple weekly routine
 
-Use this routine every day. “Reset” means the daily VS reset shown by your event timer.
+Use this routine every day. “Reset” means **00:00 server time**, when the daily VS stage changes.
 
-- **As soon as a day starts:** open VS and Mission Readiness. Write down the 2–3 matching actions for that day.
-- **Gathering:** send all available marches soon after reset. Recall them **after the next reset**, claim the gathering result, and immediately send them again. Before the following reset, recall them so the next day’s points can be claimed after reset. Do not recall early unless you need the troops.
-- **Queues:** start long construction, research, or training before reset when possible. Finish or claim them after reset only if the new day scores that action.
+- **At **00:00 server time**:** open VS and Mission Readiness. Write down the 2–3 matching actions for that day.
+- **Gathering:** send all available marches soon after **00:00 server time**. Leave them gathering overnight. After the next **00:00 reset**, recall them, claim the gathering result, and immediately send them again. Before the following 00:00 reset, recall them so the next day’s points can be claimed after reset. Do not recall early unless you need the troops.
+- **Queues:** start long construction, research, or training before reset when possible. Finish or claim them after 00:00 only if the new day scores that action.
 - **Missions:** leave completed Radar, Special Ops, truck, and Mission Readiness tasks unclaimed until the matching day.
 - **Before sleeping:** start marches and queues that will be ready for the next scoring window.
 - **Last hour:** do not panic-spend. Check the target, available points, and whether your action is actually listed.
@@ -55,13 +55,13 @@ The client exposes Mission Readiness as a rotating stage system with stage swapp
 | Construction | Start an upgrade; save speedups | Finish/use speedups when both objectives match | Yes, on construction day
 | Research | Start research; save research items | Finish/use items when both objectives match | Yes, on research day
 | Heroes | Save tickets, EXP, fragments, books | Open/use only when the matching task is active | Yes, on Hero day
-| Training/healing | Keep queues and reserves ready | Finish/use after reset; heal only real losses | Yes, on training/recovery day
+| Training/healing | Keep queues and reserves ready | Finish/use after 00:00; heal only real losses | Yes, on training/recovery day
 
 ### Timing procedure
 
-1. Before reset, inspect all three event panels.
+1. Before **00:00 server time**, inspect both event panels.
 2. Leave missions/rewards complete but unclaimed where the UI permits.
-3. After reset, confirm the exact source that awards points.
+3. After the **00:00 reset**, confirm the exact source that awards points.
 4. Claim/finish the action while both objectives are active.
 5. Test an inexpensive action if credit timing is unclear; record the result.
 6. Stop at the alliance target or efficiency limit.

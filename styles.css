@@ -29,10 +29,13 @@ h1 { margin: 8px 0 2px; font-size: clamp(36px, 8vw, 58px); letter-spacing: -.055
 .day-kicker { margin: 0 0 2px; color: var(--accent); font-size: 9px; letter-spacing: .12em; }
 h2 { margin: 0; font-size: clamp(16px, 2.4vw, 20px); letter-spacing: -.025em; line-height: 1.05; }
 .day-icon { color: var(--accent); font-size: 26px; line-height: .8; text-align: right; opacity: .9; }
+small { color: var(--muted); font-size: .86em; }
+.variant { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-top: 14px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; color: var(--muted); font-size: 10px; }
+.variant b { color: var(--text); font-size: 11px; }
 ul { display: grid; gap: 6px; margin: 16px 0 0; padding: 0; list-style: none; color: #d5deeb; font-size: 13px; }
 li { display: flex; align-items: baseline; gap: 8px; }
 li::before { content: ""; width: 5px; height: 5px; flex: 0 0 5px; border-radius: 50%; background: var(--accent); }
 .day-1 { --accent: #59d7ed; } .day-2 { --accent: #f5b85b; } .day-3 { --accent: #aa9bff; } .day-4 { --accent: #ff83b6; } .day-5 { --accent: #67e8a5; } .day-6 { --accent: #ff7d76; }
 footer { display: flex; justify-content: space-between; gap: 10px; margin-top: 16px; color: #64748a; font-size: 10px; }
-@media (max-width: 560px) { .shell { width: min(100% - 20px, 440px); padding-top: 23px; } .hero { padding-bottom: 17px; } .subtitle { margin-top: 8px; font-size: 14px; } .days { gap: 8px; } .day { min-height: 190px; padding: 12px 10px 11px; border-radius: 12px; } .day-head { grid-template-columns: 27px 1fr 20px; gap: 5px; } .day-number { font-size: 15px; } h2 { font-size: 14px; } .day-kicker { font-size: 8px; } .day-icon { font-size: 20px; } ul { margin-top: 14px; gap: 5px; font-size: 11px; line-height: 1.25; } li { gap: 6px; } li::before { width: 4px; height: 4px; flex-basis: 4px; } footer { font-size: 9px; } }
+@media (max-width: 560px) { .shell { width: min(100% - 20px, 440px); padding-top: 23px; } .hero { padding-bottom: 17px; } .subtitle { margin-top: 8px; font-size: 14px; } .days { gap: 8px; } .day { min-height: 190px; padding: 12px 10px 11px; border-radius: 12px; } .day-head { grid-template-columns: 27px 1fr 20px; gap: 5px; } .day-number { font-size: 15px; } h2 { font-size: 14px; } .day-kicker { font-size: 8px; } .day-icon { font-size: 20px; } ul { margin-top: 14px; gap: 5px; font-size: 11px; line-height: 1.25; } li { gap: 6px; } li::before { width: 4px; height: 4px; flex-basis: 4px; } .variant { margin-top: 10px; font-size: 9px; } .variant b { font-size: 10px; } footer { font-size: 9px; } }
 @media (max-width: 365px) { .days { grid-template-columns: 1fr 1fr; } .day { min-height: 205px; } h2 { font-size: 13px; } ul { font-size: 10px; } }

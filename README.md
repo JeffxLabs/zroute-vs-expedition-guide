@@ -1,6 +1,6 @@
 # Weekly VS Score Guide
 
-A compact, mobile-friendly visual reference for **Alliance Competition / VS**: what activities score points on each day.
+A compact, mobile-friendly visual reference for **Alliance Competition / VS**: what activities score points on each day. No strategy—just the reference.
 
 ## View it
 

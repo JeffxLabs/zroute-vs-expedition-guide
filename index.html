@@ -11,13 +11,17 @@
 <body>
   <main class="shell">
     <header class="hero">
-      <div class="eyebrow"><span class="live-dot"></span> Weekly reference</div>
-      <h1>VS Score Guide</h1>
-      <p class="subtitle">A quick visual map of the activities that earn points.</p>
-      <div class="reset"><span class="reset-icon">↻</span><span><b>Daily reset</b><br><strong>00:00 server time</strong></span></div>
+      <div class="hero-row">
+        <div>
+          <div class="eyebrow"><span class="live-dot"></span> Weekly reference</div>
+          <h1>VS Score Guide</h1>
+        </div>
+        <div class="reset"><span class="reset-icon">↻</span><span><b>Daily reset</b><br><strong>00:00 server time</strong></span></div>
+      </div>
+      <p class="subtitle">Tap any activity for scoring details.</p>
     </header>
 
-    <p class="notice">The six-day order repeats. <b>Gathering is not listed as a VS scoring activity in this client version.</b></p>
+    <p class="notice">The six-day order repeats. <b>Tap an activity to see what counts.</b></p>
 
     <section class="legend" aria-label="How to use this guide">
       <span class="legend-label">Find the day</span>
@@ -27,28 +31,66 @@
 
     <section class="days" aria-label="VS scoring days">
       <article class="day day-1">
-        <div class="day-head"><span class="day-number">01</span><div><p class="day-kicker">Day one</p><h2>Radar &amp; Stamina</h2></div><span class="day-icon">⌁</span></div>
-        <ul><li>Stamina use</li><li>Radar missions</li><li>Hero EXP</li><li>Fighter Combat Chips</li><li>Fighter Parts</li><li>Qualifying diamond purchases</li></ul>
+        <div class="day-head"><span class="day-number">01</span><div><p class="day-kicker">Day one</p><h2>Radar Exploration</h2></div><span class="day-icon">⌁</span></div>
+        <ul>
+          <li><button class="activity" data-title="Stamina use" data-detail="Spend stamina during Radar Exploration. The client awards points for stamina consumption.">Stamina use</button></li>
+          <li><button class="activity" data-title="Radar missions" data-detail="Complete Radar missions. Radar mission completion is a Day 1 scoring source.">Radar missions</button></li>
+          <li><button class="activity" data-title="Gathering" data-detail="Gather food, metal, and energy as part of Radar Exploration. Gathering returns are included in the Day 1 reference.">Gathering</button></li>
+          <li><button class="activity" data-title="Hero EXP" data-detail="Use Hero EXP. The client tracks Hero EXP consumption as a Day 1 source.">Hero EXP</button></li>
+          <li><button class="activity" data-title="Fighter Combat Chips" data-detail="Obtain Fighter Combat Chips. This Day 1 item source is listed separately from Fighter Parts.">Fighter Combat Chips</button></li>
+          <li><button class="activity" data-title="Fighter Parts" data-detail="Obtain Fighter Parts. This item source is listed for Day 1.">Fighter Parts</button></li>
+          <li><button class="activity" data-title="Qualifying diamond purchases" data-detail="Only the qualifying purchase source counts; ordinary diamond spending is not automatically a VS source.">Diamond purchases</button></li>
+        </ul>
       </article>
       <article class="day day-2">
         <div class="day-head"><span class="day-number">02</span><div><p class="day-kicker">Day two</p><h2>Building &amp; Special Ops</h2></div><span class="day-icon">⌂</span></div>
-        <ul><li>Building speedups &amp; power</li><li><b>UR</b> Special Ops missions</li><li><b>UR</b> transport trucks</li><li>Survivor recruitment</li><li>Qualifying diamond purchases</li></ul>
+        <ul>
+          <li><button class="activity" data-title="Building speedups &amp; power" data-detail="Use building speedups or gain building power during this stage.">Building speedups &amp; power</button></li>
+          <li><button class="activity" data-title="UR Special Ops" data-detail="Complete qualifying UR Special Ops missions. The source is tied to the UR mission quality.">UR Special Ops</button></li>
+          <li><button class="activity" data-title="UR transport trucks" data-detail="Dispatch qualifying UR transport trucks. This is the alliance transport-truck source.">UR transport trucks</button></li>
+          <li><button class="activity" data-title="Survivor recruitment" data-detail="Recruit survivors. Survivor recruitment is listed as a Day 2 source.">Survivor recruitment</button></li>
+          <li><button class="activity" data-title="Qualifying diamond purchases" data-detail="Only the qualifying purchase source counts; ordinary diamond spending is not automatically a VS source.">Diamond purchases</button></li>
+        </ul>
       </article>
       <article class="day day-3">
         <div class="day-head"><span class="day-number">03</span><div><p class="day-kicker">Day three</p><h2>Research</h2></div><span class="day-icon">✦</span></div>
-        <ul><li>Research speedups &amp; power</li><li>Research Data</li><li>Radar missions</li><li>Fighter Component Chests <small>Lv 1–7</small></li><li>Qualifying diamond purchases</li></ul>
+        <ul>
+          <li><button class="activity" data-title="Research speedups &amp; power" data-detail="Use research speedups or gain research power during this stage.">Research speedups &amp; power</button></li>
+          <li><button class="activity" data-title="Research Data" data-detail="Use Research Data. This item-use source is listed for Day 3.">Research Data</button></li>
+          <li><button class="activity" data-title="Radar missions" data-detail="Complete Radar missions. Radar is also available as a Day 3 scoring source.">Radar missions</button></li>
+          <li><button class="activity" data-title="Fighter Component Chests" data-detail="Open qualifying Fighter Component Chests. The client lists chest levels 1–7 with different point values.">Component Chests <small>Lv 1–7</small></button></li>
+          <li><button class="activity" data-title="Qualifying diamond purchases" data-detail="Only the qualifying purchase source counts; ordinary diamond spending is not automatically a VS source.">Diamond purchases</button></li>
+        </ul>
       </article>
       <article class="day day-4">
         <div class="day-head"><span class="day-number">04</span><div><p class="day-kicker">Day four</p><h2>Heroes</h2></div><span class="day-icon">♢</span></div>
-        <ul><li>Hero recruitment</li><li>Hero EXP</li><li>UR / SSR / SR Hero Shards</li><li>Skill EXP Books</li><li>Qualifying diamond purchases</li></ul>
+        <ul>
+          <li><button class="activity" data-title="Hero recruitment" data-detail="Recruit heroes using the qualifying recruitment source.">Hero recruitment</button></li>
+          <li><button class="activity" data-title="Hero EXP" data-detail="Use Hero EXP. The client tracks Hero EXP consumption as a Day 4 source.">Hero EXP</button></li>
+          <li><button class="activity" data-title="Hero Shards" data-detail="Use qualifying UR, SSR, or SR Hero Shards. Each rarity has its own point value.">UR / SSR / SR Shards</button></li>
+          <li><button class="activity" data-title="Skill EXP Books" data-detail="Use Skill EXP Books. This is a separate Day 4 item source.">Skill EXP Books</button></li>
+          <li><button class="activity" data-title="Qualifying diamond purchases" data-detail="Only the qualifying purchase source counts; ordinary diamond spending is not automatically a VS source.">Diamond purchases</button></li>
+        </ul>
       </article>
       <article class="day day-5">
         <div class="day-head"><span class="day-number">05</span><div><p class="day-kicker">Day five</p><h2>Growth &amp; Training</h2></div><span class="day-icon">▦</span></div>
-        <ul><li>Radar missions</li><li>Building &amp; research speedups &amp; power</li><li>Training speedups</li><li>Troop training <small>T1–T10</small></li><li>Qualifying diamond purchases</li></ul>
+        <ul>
+          <li><button class="activity" data-title="Radar missions" data-detail="Complete Radar missions. Radar is also available as a Day 5 scoring source.">Radar missions</button></li>
+          <li><button class="activity" data-title="Building &amp; research speedups &amp; power" data-detail="Use building or research speedups, or gain building/research power.">Building &amp; research</button></li>
+          <li><button class="activity" data-title="Training speedups" data-detail="Use troop-training speedups. The speedup source is separate from training soldiers.">Training speedups</button></li>
+          <li><button class="activity" data-title="Troop training" data-detail="Train troops from T1 through T10. The client assigns different point values by troop tier.">Troop training <small>T1–T10</small></button></li>
+          <li><button class="activity" data-title="Qualifying diamond purchases" data-detail="Only the qualifying purchase source counts; ordinary diamond spending is not automatically a VS source.">Diamond purchases</button></li>
+        </ul>
       </article>
       <article class="day day-6">
         <div class="day-head"><span class="day-number">06</span><div><p class="day-kicker">Day six</p><h2>Combat &amp; Recovery</h2></div><span class="day-icon">⚔</span></div>
-        <ul><li>Eliminations &amp; troop losses</li><li><b>UR</b> Special Ops missions</li><li><b>UR</b> transport trucks</li><li>Building, research, training &amp; healing speedups</li><li>Qualifying diamond purchases</li></ul>
+        <ul>
+          <li><button class="activity" data-title="Eliminations &amp; troop losses" data-detail="Combat elimination and troop-loss sources are tracked separately, with point values by troop tier.">Eliminations &amp; troop losses</button></li>
+          <li><button class="activity" data-title="UR Special Ops" data-detail="Complete qualifying UR Special Ops missions. The source is tied to the UR mission quality.">UR Special Ops</button></li>
+          <li><button class="activity" data-title="UR transport trucks" data-detail="Dispatch qualifying UR transport trucks. This is the alliance transport-truck source.">UR transport trucks</button></li>
+          <li><button class="activity" data-title="Speedups" data-detail="Building, research, training, and healing speedups are listed as Day 6 sources.">Building, research, training &amp; healing</button></li>
+          <li><button class="activity" data-title="Qualifying diamond purchases" data-detail="Only the qualifying purchase source counts; ordinary diamond spending is not automatically a VS source.">Diamond purchases</button></li>
+        </ul>
       </article>
     </section>
 
@@ -56,5 +98,23 @@
 
     <footer><span>Client reference: v1.30.07</span><span>Live event rules may change.</span></footer>
   </main>
+  <dialog class="details" id="details">
+    <button class="close" type="button" aria-label="Close details">×</button>
+    <p class="details-kicker">Scoring detail</p>
+    <h2 id="details-title"></h2>
+    <p id="details-body"></p>
+  </dialog>
+  <script>
+    const dialog = document.getElementById('details');
+    const title = document.getElementById('details-title');
+    const body = document.getElementById('details-body');
+    document.querySelectorAll('.activity').forEach((item) => item.addEventListener('click', () => {
+      title.innerHTML = item.dataset.title;
+      body.textContent = item.dataset.detail;
+      dialog.showModal();
+    }));
+    dialog.addEventListener('click', (event) => { if (event.target === dialog) dialog.close(); });
+    dialog.querySelector('.close').addEventListener('click', () => dialog.close());
+  </script>
 </body>
 </html>

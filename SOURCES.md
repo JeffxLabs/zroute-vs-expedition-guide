@@ -1,7 +1,11 @@
 # Source notes
 
-Extracted from local Z Route Android client assets, version 1.30.07.
+The visual guide is based on local Z Route Android client assets, version 1.30.07.
 
-Relevant tables: `AllianceCompetitionStage.lua`, `ActivityTarget.lua`, `PointSource.lua`, `AllianceCompetitionReward.lua`, `AllianceCompetitionParameters.lua`, and `AllianceCompetitionPack.lua`.
+Relevant tables:
 
-Raw game assets are not committed; this repository publishes interpretation and strategy. It is independent and unaffiliated with the publisher.
+- `AllianceCompetitionStage.lua` — stage/day mapping
+- `ActivityTarget.lua` — daily point-source mapping
+- `PointSource.lua` — qualifying activity descriptions and conditions
+
+Raw game assets are not committed. This repository publishes a concise interpretation for player reference.
